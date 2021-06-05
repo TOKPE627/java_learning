@@ -11,16 +11,16 @@ public class Fibonacci {
       }
       sc.close();
   }
-  public static int fibonciCheck(int number){
-    if(number==1 || number==2){
-        return 1;
-    }
-    int fib1=1,fib2=1,fibonciFinal=1;
-    for(int i=3; i<=number; i++){
-        fibonciFinal=fib1+fib2;
-        fib1=fib2;
-        fib2=fibonciFinal;
-    }
-    return fibonciFinal;               
-}  
+    public static int fibonciCheck(int number){
+        if(number==1 || number==2){
+            return 1;
+        }
+        int fib1=1,fib2=1,fibonciFinal=1;
+        for(int i=3; i<=number; i++){
+            fibonciFinal=fib1+fib2;
+            fib1=fib2;
+            fib2=fibonciFinal;
+        }
+        return fibonciFinal;               
+   }  
 }
